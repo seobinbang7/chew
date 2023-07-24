@@ -27,11 +27,11 @@
         <div class="guide-wrapper">
           <ul class="header-guide">
             <li><a class="accent" href="./login.html">회원가입</a>
-              <div class="line">|</div>
+              <div class="line" aria-hidden="true">|</div>
             </li>
     
             <li><a href="./login_mini.html">로그인</a>
-              <div class="line">|</div>
+              <div class="line" aria-hidden="true">|</div>
             </li>
     
             <li>
@@ -47,7 +47,7 @@
           <img class="header-logo" alt="마켓 컬리" src="../images/logo.png" />
           </a>
           <a class="market accent" href="../index.html">마켓칼리</a>
-          <span class="line">|</span>
+          <span class="line" aria-hidden="true">|</span>
           <a class="beauty" href="/">뷰티칼리<sup class="sup">N</sup></a>
           <form action="https://formspree.io/f/xeqwwbwk" method="POST" class="search-form">
             
@@ -66,13 +66,13 @@
           </form>
           <ul class="header-icon">
             <li>
-              <a href="/"><img alt="맵" src="../images/mark.png" /></a>
+              <a href="/"><img alt="마크" src="../images/mark.png" /></a>
             </li>
             <li>
-              <a href="/"><img alt="하트" src="../images/heart.png" /></a>
+              <a href="/"><img alt="좋아요" src="../images/heart.png" /></a>
             </li>
             <li>
-              <a href="/"><img alt="카트" src="../images/cart.png" /></a>
+              <a href="/"><img alt="장바구니" src="../images/cart.png" /></a>
             </li>
           </ul>
         </div>
@@ -138,7 +138,6 @@
       <div class="introduction__div">
         <img
           class="jjolmyeno1"
-          alt="jjolmyeno"
           src="../images/jjolmyeno1.png"
         />
         <div class="order">
@@ -196,8 +195,13 @@
               <p>[풀무원] 탱탱쫄면 (4개입)</p>
               <div>
                 <div class="count-one">
-                  <i class="fa-solid fa-minus" aria-label="빼기"></i><span>1</span
-                  ><i class="fa-solid fa-plus" aria-label="더하기"></i>
+                  <span aria-label="수량 내리기">
+                    <i class="fa-solid fa-minus"></i><span>1</span
+                  >
+                  </span>
+                  <span aria-label="수량 올리기">
+                    <i class="fa-solid fa-plus"></i>
+                  </span>
                 </div>
                 <span>4,800원</span>
               </div>
@@ -213,7 +217,7 @@
             <input id="basket-btn" type="checkbox" />
             <label for="basket-btn" class="basket-btn">장바구니 담기</label>
             <div class="balloon">
-              <img alt="jjolmyeno-mini" src="../images/jjolmyeno1.png" />
+              <img src="../images/jjolmyeno1.png" />
               <div>
                 <span>[풀무원] 탱탱쫄면 (4개입)</span><br />
                 <span>장바구니에 상품을 담았습니다.</span>
@@ -319,7 +323,7 @@
               <form class="popup-form">
                 <h2>후기 작성</h2>
                 <div class="popup-form-information">
-                  <img alt="jjolmyeno-mini" src="../images/jjolmyeno1.png" />
+                  <img src="../images/jjolmyeno1.png" />
                   <span>[풀무원] 탱탱쫄면 (4개입)</span>
                 </div>
                 <div class="popup-form-input">
@@ -357,7 +361,7 @@
         <div class="suggestion">
           <div class="suggestion-quantity">
             <span>총 2개</span>
-            <span>추천순 <span>| 최근 등록순</span></span>
+            <span>추천순 <span><span aria-hidden="true">|</span> 최근 등록순</span></span>
           </div>
           <div class="notification-box">
             <span class="notification">공지</span>
@@ -674,27 +678,27 @@
             <!-- ul li 추가 -->
             <li>
               <a href="/">
-                <img src="../images/icon/Blog.svg" alt="Blog" />
+                <img src="../images/icon/Blog.svg" alt="마켓 칼리의 블로그 이동" />
               </a>
             </li>
             <li>
               <a href="/">
-                <img src="../images/icon/FaceBook.svg" alt="FaceBook" />
+                <img src="../images/icon/FaceBook.svg" alt="마켓 칼리의 페이스북 이동" />
               </a>
             </li>
             <li>
               <a href="/">
-                <img src="../images/icon/Instagram.svg" alt="Instagram" />
+                <img src="../images/icon/Instagram.svg" alt="마켓 칼리의 인스타그램 이동" />
               </a>
             </li>
             <li>
               <a href="/">
-                <img src="../images/icon/NaverPost.svg" alt="NaverPost" />
+                <img src="../images/icon/NaverPost.svg" alt="마켓 칼리의 네이버 블로그 이동" />
               </a>
             </li>
             <li>
               <a href="/">
-                <img src="../images/icon/Youtube.svg" alt="Youtube" />
+                <img src="../images/icon/Youtube.svg" alt="마켓 칼리의 유튜브 이동" />
               </a>
             </li>
           </ul>
@@ -702,25 +706,25 @@
     
         <div class="footer__client">
           <div>
-            <img src="../images/logo_isms.svg" alt="logo_isms" />
+            <img src="../images/logo_isms.svg"  />
             <span>
               [인증범위] 마켓칼리 쇼핑몰 서비스 개발 운영<br />(심사받지 않은 물리적 인프라 제외)<br />[유효기간] 2022.01.19 ~ 2025.01.18
             </span>
           </div>
           <div>
-            <img src="../images/logo_privacy.svg" alt="logo_privacy" />
+            <img src="../images/logo_privacy.svg" />
             <span>
               개인정보보호 우수 웹사이트<br />개인정보처리시스템 인증 (ePRIVACY PLUS)
             </span> 
           </div>
           <div>
-            <img src="../images/logo_tosspayments.svg" alt="logo_tosspayments" />
+            <img src="../images/logo_tosspayments.svg" />
             <span>
               토스페이먼츠 구매안전(에스크로) 서비스를 이용하실 수 있습니다.
             </span>
           </div>
           <div>
-            <img src="../images/logo_wooriBank.svg" alt="logo_wooriBank" />
+            <img src="../images/logo_wooriBank.svg" />
             <span>
               고객님이 현금으로 결제한 금액에 대해 우리은행과 채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다.
             </span>
